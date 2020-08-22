@@ -1,7 +1,7 @@
 # useful-algorithms
 useful algorithm snippets for personal reference
 
-based on khan academy course
+based on khan academy course + udacity python data structures
 
 note to self: site hosting
 
