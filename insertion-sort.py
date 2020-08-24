@@ -1,17 +1,17 @@
-# Function to do insertion sort 
-def insertionSort(arr): 
+def insertion_sort(arr):
   for i in range(1, len(arr)):
+
     key = arr[i]
 
-    j = i-1
+    j = i - 1
 
-    while j > 0 and arr[j] > key:
+    while j >= 0 and arr[j] > key:
       arr[j+1] = arr[j]
       j -= 1
-    arr[j] = key
 
-  
-  
-arr = [12, 11, 13, 5, 6] 
-insertionSort(arr) 
-print ("Sorted array is:", arr)
+    arr[j+1] = key
+
+myArr = [3, 7, 65, 2, 9, 34, 23]
+
+insertion_sort(myArr)
+print(myArr)
